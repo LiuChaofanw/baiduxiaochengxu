@@ -1,0 +1,68 @@
+<view class="wrap">
+    <view class="page-section">
+        <view class="page-section-title">movable-view区域小于movable-area</view>
+        <movable-area style="width: 2rem;height: 2rem;">
+            <movable-view style="width: 0.5rem;height: 0.5rem;" direction="all" x="{{x}}" y="{{y}}" bindchange="bindChange">baidu</movable-view>
+        </movable-area>
+    </view>
+    <view class="btn-area">
+        <button type="primary" bind:tap="onClick">click me to move to (30px, 30px)</button>
+    </view>
+    <view class="page-section">
+        <view class="page-section-title">第1种情况：movable-view区域大于movable-area</view>
+        <movable-area style="width: 2rem;height: 2rem;">
+            <movable-view style="width: 3rem;height: 3rem;line-height: 3rem;" out-of-bounds class="max" direction="all">baidu</movable-view>
+        </movable-area>
+    </view>
+    <view class="page-section">
+        <view class="page-section-title">第2种情况：movable-view区域大于movable-area</view>
+        <movable-area style="width: 2rem;height: 2rem;">
+            <movable-view style="width: 3rem;height: 1rem;line-height: 1rem;" out-of-bounds class="max" direction="all">baidu</movable-view>
+        </movable-area>
+    </view>
+    <view class="page-section">
+        <view class="page-section-title">第3种情况：movable-view区域大于movable-area movable-area可缩放</view>
+        <movable-area style="width: 2rem;height: 2rem;" scale-area>
+            <movable-view bindscale="bindscale" scale out-of-bounds style="width: 1rem;height: 3rem;line-height: 3rem;" class="max" direction="all">baidu</movable-view>
+        </movable-area>
+    </view>
+    <view class="page-section">
+        <view class="page-section-title">不能移动 direction='none'</view>
+        <movable-area style="width: 2rem;height: 2rem;">
+            <movable-view style="width: 0.5rem;height: 0.5rem;" x="30" y="50" direction='none'>baidu</movable-view>
+        </movable-area>
+    </view>
+    <view class="page-section">
+        <view class="page-section-title">只可以横向移动 direction='horizontal'</view>
+        <movable-area style="width: 2rem;height: 2rem;">
+            <movable-view style="width: 0.5rem;height: 0.5rem;" x="30" y="50" direction='horizontal'>baidu</movable-view>
+        </movable-area>
+    </view>
+    <view class="page-section">
+        <view class="page-section-title">只可以纵向移动 direction='vertical'</view>
+        <movable-area style="width: 2rem;height: 2rem;">
+            <movable-view style="width: 0.5rem;height: 0.5rem;" out-of-bounds x="30" y="20" direction='vertical'>baidu</movable-view>
+        </movable-area>
+    </view>
+    <view class="page-section">
+        <view class="page-section-title">可超出边界 out-of-bounds 可放大</view>
+        <movable-area style="width: 2rem;height: 2rem;">
+            <movable-view style="width: 0.5rem;height: 0.5rem;" scale out-of-bounds damping="100" direction="all" bindchange="bindChange">baidu</movable-view>
+        </movable-area>
+    </view>
+    <view class="page-section">
+        <view class="page-section-title">带有惯性</view>
+        <movable-area style="width: 2rem;height: 2rem;">
+            <movable-view style="width: 0.5rem;height: 0.5rem;" out-of-bounds inertia="true" friction="2" direction="all" scaleValue="1">baidu</movable-view>
+        </movable-area>
+    </view>
+    <view class="page-section">
+        <view class="page-section-title">可放缩</view>
+        <movable-area style="width: 2rem;height: 2rem;" scale-area>
+            <movable-view style="width: 0.5rem;height: 0.5rem;" scale direction="all" scaleValue="{{scaleValue}}">baidu</movable-view>
+        </movable-area>
+    </view>
+    <view class="btn-area">
+        <button class="page-body-button" type="primary" bind:tap="clickScale">click me to scale to 3</button>
+    </view>
+</view>

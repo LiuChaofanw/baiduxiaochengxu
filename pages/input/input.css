@@ -1,0 +1,15 @@
+/**
+ *@demo for input component
+ *@author lvlei(lvlei03@baidu.com)
+ */
+
+.wrap {
+    font-size: .16rem;
+}
+.ipt {
+    margin: 0 .2rem .07rem .2rem;
+    height: .4rem;
+}
+.small-ipt {
+    width: 2.79rem;
+}

@@ -1,0 +1,19 @@
+/**
+ * @file swan index apiDemo's css
+ * @author renzhonghua@baidu.com
+ */
+
+.ctn {
+    margin-top: 42px;
+}
+
+.btn {
+    margin-bottom: 15px;
+}
+
+.tips {
+    font-size: 13px;
+    color: #999;
+    margin-left: 22px;
+    margin-top: 18px;
+}

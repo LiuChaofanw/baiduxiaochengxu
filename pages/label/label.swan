@@ -1,0 +1,8 @@
+<view class="wrap">
+    <view class="title">label用for表示表单组件</view>
+    <form class="form">
+        <label for="label-for-id">点击我也能触发按钮</label>
+        <button type="primary" style="margin-top:20px;" id="label-for-id" bind:tap="clickbtn">button</button>
+    </form>
+</view>
+

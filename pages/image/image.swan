@@ -1,0 +1,14 @@
+<view class="wrap">
+    <view class="title">默认样式</view>
+    <view class="img-box big-img">
+        <image style="width:29px;height:29px;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%); " src="../../images/bearpaw.png"></image>
+    </view>
+    <view class="img-box small-img">
+        <view class="rect-box">
+            <image style="width:29px;height:29px;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);" src="../../images/bearpaw.png"></image>
+        </view>
+        <view class="cir-box">
+            <image style="width:32px;height:32px;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);" src="../../images/bearpaw.png"></image>
+        </view> 
+    </view>
+</view>

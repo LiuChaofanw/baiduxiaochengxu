@@ -1,0 +1,12 @@
+/**
+ * @file swan index apiDemo's css
+ * @author renzhonghua@baidu.com
+ */
+
+.a {
+    display: block;
+    padding: 5px 10px;
+    background: #90b99b;
+    margin: 10px;
+    font-size: 12px;
+}

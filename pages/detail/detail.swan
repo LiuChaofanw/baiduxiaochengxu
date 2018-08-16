@@ -1,0 +1,9 @@
+<view class="container">
+    <view class="page-body">
+        <view>The quick brown fox jumps over the lazy dog.</view>
+        <view>The quick brown fox jumps over the lazy dog.</view>
+        <view>The quick brown fox jumps over the lazy dog.</view>
+        <view>The quick brown fox jumps over the lazy dog.</view>
+        <view>The quick brown fox jumps over the lazy dog.</view>
+    </view>
+</view>

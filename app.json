@@ -1,0 +1,43 @@
+{
+    "debug": false,
+    "pages": [
+      "pages/home/home",
+      "pages/order/order",
+      "pages/my/my"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTitleText": "小程序测试",
+        "navigationBarTextStyle": "black",
+        "backgroundTextStyle": "black",
+        "enablePullDownRefresh": false
+    },
+    "networkTimeout": {
+        "request": 30000,
+        "connectSocket": 10000,
+        "uploadFile": 10000,
+        "downloadFile": 10000
+    },
+    "tabBar": {
+        "color": "#a2a2a2",
+        "selectedColor": "#3388ff",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "pages/home/home",
+            "iconPath": "images/component_normal.png",
+            "selectedIconPath": "images/component_selected.png",
+            "text": "首页"
+        }, {
+            "pagePath": "pages/order/order",
+            "iconPath": "images/API_normal.png",
+            "selectedIconPath": "images/API_selected.png",
+            "text": "订单"
+        },{
+            "pagePath": "pages/my/my",
+            "iconPath": "images/API_normal.png",
+            "selectedIconPath": "images/API_selected.png",
+            "text": "我的"
+        }]
+    }
+}

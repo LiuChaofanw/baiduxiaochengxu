@@ -1,0 +1,24 @@
+<view class="wrap">
+    <view class="title">样式</view>
+    <view >
+        <button type="default" size="mini" class="mini-btn">按钮</button>
+        <button type="primary" size="mini" class="mini-btn">按钮</button>
+        <button type="warn"    size="mini" class="mini-btn">按钮</button>
+    </view>
+
+    <view class="title">状态</view>
+    <view>
+        <button type="default" class="btn">normal</button>
+        <button type="default" class="btn disabled" disabled>disabled/pressed</button>
+        <button type="default" class="btn" loading>loading</button>
+        <button type="primary" class="btn">normal</button>
+        <button type="primary" class="btn disabled" disabled>disabled/pressed</button>
+        <button type="primary" class="btn" loading>loading</button>
+    </view>
+
+    <view class="title">调起</view>
+    <view>
+        <button type="default" class="btn" open-type="share">点击分享</button>
+        <!-- <button type="default" class="btn" open-type="getUserInfo" bind:tap="getUserInfo">点击获取用户信息</button> -->
+    </view>
+</view>

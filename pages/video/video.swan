@@ -1,0 +1,13 @@
+<view class="wrap">
+    <view>
+        <video id="myVideo" style="width: 100%;" danmuList="{{danmuList}}" src="{{src}}" controls bindplay="play" bindpause="pause"
+            bindfullscreenchange="fullscreen" bindended="ended" binddanmu="danmu" autoplay="{{autoplay}}" muted="{{muted}}"></video>
+    </view>
+    <view class="text-wrap">
+        <text class="danmu-title">弹幕内容</text>
+        <input class="ipt" bindblur="bindInputBlur" value="{{danmuContent}}" placeholder="在此处输入弹幕内容" />
+    </view>
+    <button class="btn" bindtap="bindSendDanmu" type="primary">发送弹幕</button>
+    <button class="btn" bindtap="next" type="primary">切换视频地址</button>
+    <button class="btn" bindtap="setmuted" type="primary">设置静音</button>
+</view>

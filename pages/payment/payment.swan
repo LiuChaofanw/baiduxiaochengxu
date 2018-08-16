@@ -1,0 +1,5 @@
+
+<view class="ctn">
+	<button s-for="item in items" id="{{item.id}}" class="btn" bind:tap="btnClick" type="primary" hover-stop-propagation="true">{{item.name}}</button>
+</view>
+<view class="tips">本demo不具备实际支付功能，仅用于API展示。</view>

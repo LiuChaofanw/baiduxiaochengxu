@@ -1,0 +1,12 @@
+<view class="wrap">
+    <view class="title">默认样式</view>
+    <checkbox class="checkbox" checked>&nbsp;&nbsp;选中</checkbox>
+    <checkbox class="checkbox" checked="false">&nbsp;&nbsp;未选中</checkbox>
+
+    <view class="title">推荐示例</view>
+    <view class="item-wrap">
+        <view s-for="item in items" class="item">
+            <checkbox value="{{item.value}}" checked="{{item.checked}}">&nbsp;&nbsp;{{item.text}}</checkbox>
+        </view>
+    </view>
+</view>

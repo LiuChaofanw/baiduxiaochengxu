@@ -1,0 +1,22 @@
+/**
+ * @demo page component for checkbox
+ * @author lvlei(lvlei03@baidu.com)
+ */
+
+.wrap {
+    font-size: .16rem;
+}
+.checkbox {
+    margin: 0 .25rem;
+}
+.item-wrap {
+    background: #fff;
+}
+.item {
+    padding: .15rem 0;
+    border-bottom: 1px #f5f5f5 solid;
+    margin-left: .25rem;
+}
+.switch {
+    float: right;
+}

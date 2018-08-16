@@ -1,0 +1,11 @@
+
+<view bind:tap="oneItemClick" id="{{items.id}}" class="a">
+    {{items.id}}
+</view>
+<view id="{{goAverage}}" class="a">
+    goAverage: {{goAverage}}
+</view>
+<view id="{{backAverage}}" class="a">
+    backAverage: {{backAverage}}
+</view>
+

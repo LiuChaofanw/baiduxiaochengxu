@@ -1,0 +1,7 @@
+<view class="wrap">
+    <progress class="progress" percent="20" activeColor="#3c76ff" stroke-width="2" show-info />
+    <progress class="progress" percent="100" activeColor="#3c76ff" show-info />
+    <progress class="progress" percent="100" activeColor="#ffd064" show-info />
+    <progress class="progress" percent="80" activeColor="#3c76ff" active show-info />
+    <progress class="progress" percent="100" activeColor="#3c76ff" active show-info />
+</view>

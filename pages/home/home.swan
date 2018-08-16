@@ -1,0 +1,14 @@
+<view class="home">
+  <image src="../../images/image2.jpeg"></image>
+  <view class="content_wrap">
+    <view class="content">
+      <view class="location">软件园南街
+        <view class="location_left"></view>
+        <view class="location_right"></view>
+      </view>
+      <view class="date">08月16日</view>
+      <view class="search">关键字、酒店、地址</view>
+      <view class="button">酒店查询</view>
+    </view>
+  </view>
+</view>

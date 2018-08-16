@@ -1,0 +1,21 @@
+.wrap {
+    position: relative;
+    top: 10px;
+    width: 100%;
+}
+.sub-item {
+    display: block;
+    margin: 6px 22.67px;
+    border-radius: 4px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    color: #333;
+    border: 1px solid #333;
+    background-color: #fff;
+}

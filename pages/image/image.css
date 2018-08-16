@@ -1,0 +1,39 @@
+/**
+ * @demo page component for image
+ * @author lvlei(lvlei03@baidu.com)
+ */
+
+.wrap {
+    /* padding: .18rem; */
+    font-size: .16rem;
+}
+.img-box {
+    width: 3.45rem;
+    margin: 0 auto;
+    position: relative;
+}
+.big-img {
+    height: 2.13rem;
+    line-height: 2.13rem;
+    background: #EAEAEA;
+}
+.small-img {
+    margin-top: .15rem;
+}
+.rect-box,
+.cir-box {
+    background: #EAEAEA;
+    display: inline-block;
+    position: relative;
+}
+.rect-box {
+    height: .91rem;
+    width: 1.21rem;
+    margin-right: .22rem;
+}
+.cir-box {
+    height: .64rem;
+    width: .64rem;
+    border-radius: 50%;
+    top: -.13rem;
+}

@@ -1,0 +1,6 @@
+<button type="primary">
+    <navigator class="nav" url="/pages/navigatePage/navigatePage">跳转到新页面打开</navigator>
+</button>
+<button type="primary" class="btn">
+    <navigator class="nav" url="/pages/redirectPage/redirectPage" open-type="redirect">在当前页面打开</navigator>
+</button>

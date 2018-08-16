@@ -1,0 +1,45 @@
+<view class="wrap">
+    <view class="title">时间选择</view>
+    <view class="section">
+        <view class="section-title">当前选择</view>
+        <picker mode="time" value="{{time}}" start="1:01" end="22:59" bind:change="timeChange">
+            <view class="picker">
+                {{time}}
+            </view>
+        </picker>
+    </view>
+    <view class="title">日期选择</view>
+    <view class="section date-section">
+        <view class="section-title">当前选择</view>
+        <picker mode="date" value="{{dateDay}}" bind:change="dateChangeDay" fields="day">
+            <view>
+                {{dateDay}}
+            </view>
+        </picker>
+    </view>
+    <view class="section date-section">
+        <view class="section-title">当前选择</view>
+        <picker mode="date" value="{{dateMonth}}" bind:change="dateChangeMonth" fields="month">
+            <view>
+                {{dateMonth}}
+            </view>
+        </picker>
+    </view>
+    <view class="section date-section">
+        <view class="section-title">当前选择</view>
+        <picker mode="date" value="{{dateYear}}" bind:change="dateChangeYear" fields="year">
+            <view>
+                {{dateYear}}
+            </view>
+        </picker>
+    </view>
+    <view class="title">地区选择</view>
+    <view class="section">
+        <view class="section-title">当前选择</view>
+        <picker mode="region" bind:change="regionChange" custom-item="{{customItem}}" title="地区选择器">
+            <view class="picker">
+                {{regionData[0]}} {{regionData[1]}} {{regionData[2]}}
+            </view>
+        </picker>
+    </view>
+</view>

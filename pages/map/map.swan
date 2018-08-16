@@ -1,0 +1,24 @@
+<view class="wrap">
+    <view class="map-wrap">
+        <map id="myMap"
+            style="width: 100%"
+            scale="{{scale}}"
+            longitude="{{longitude}}"
+            latitude="{{latitude}}"
+            markers="{{markers}}"
+            position="{{position}}"
+            showLocation="{{showLocation}}"
+            polyline="{{polyline}}"
+            controls="{{controls}}"
+            circles="{{circles}}"
+
+        bindmarkertap="onMarkertap" bindcallouttap="onCallouttap" bindcontroltap="onControltap" bindregionchange="onRegionchange"
+            bindtap="onTap" bindupdated="onUpdated"></map>
+    </view>
+    <button type="primary" bindtap="updateData" class="btn">获取更新数据测试</button>
+    <button type="primary" bindtap="updateRadius" class="btn">修改半径</button>
+    <button type="primary" bindtap="getLoaction" class="btn">获取位置</button>
+    <view class="ctn">
+        <button s-for="item in items" id="{{item.id}}" class="btn" bind:tap="btnClick" type="primary" hover-stop-propagation="true">{{item.name}}</button>
+    </view>
+</view>

@@ -1,0 +1,73 @@
+/**
+ * @demo page component for text
+ * @author lvlei(lvlei03@baidu.com)
+ */
+
+.wrap {
+    font-size: .16rem;
+}
+.group {
+    margin: .3rem .2rem .2rem .2rem;
+}
+.text-box {
+    display: flex;
+    margin-bottom: .0667rem;
+}
+.text-px {
+    flex: 0 0 .8rem;
+    text-align: center;
+}
+.text-20pt {
+    line-height: 1.19rem;
+}
+.text-17pt {
+    line-height: 1rem;
+}
+.text-14pt {
+    line-height: .89rem;
+}
+.text-13pt {
+    line-height: .68rem;
+}
+.text-content {
+    background: #fff;
+    padding: .1rem;
+    flex: 1;
+}
+.btn {
+    margin-top: .07rem;
+}
+.wrap-20pt {
+    font-size: .2rem;
+    height: 1.19rem;
+}
+.wrap-17pt {
+    font-size: .17rem;
+    height: 1rem;
+}
+.wrap-14pt {
+    font-size: .14rem;
+    height: .89rem;
+}
+.wrap-13pt {
+    font-size: .13rem;
+    height: .68rem;
+}
+.content {
+    overflow: scroll;
+}
+.content-20pt {
+    height: .99rem;
+}
+.content-17pt {
+    height: .8rem;
+    line-height: 1.5;
+}
+.content-14pt {
+    height: .69rem;
+    line-height: 1.5;
+}
+.content-13pt {
+    height: .48rem;
+    line-height: 1.5;
+}

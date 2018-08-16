@@ -1,0 +1,10 @@
+body {
+    padding-top: .35rem;
+}
+.btn {
+    margin-top: .15rem;
+}
+.nav {
+    display: inline-block;
+    width: 100%;
+}

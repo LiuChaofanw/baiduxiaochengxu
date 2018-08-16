@@ -1,0 +1,33 @@
+.wrap {
+    font-size: .16rem;
+    color: #fff;
+}
+movable-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6895FF;
+    text-align: center;
+    line-height: .5rem;
+}
+movable-area {
+    margin: .2rem;
+    background: #ccc;
+    overflow: hidden;
+}
+.max {
+    background: -webkit-linear-gradient(#ccc, #6895FF);
+    background: linear-gradient(#ccc, #6895FF);
+    text-align: center;
+}
+.page-section {
+    width: 100%;
+    margin-bottom: .5rem;
+}
+.page-section:last-child {
+    margin-bottom: 0;
+}
+.page-section-title {
+    color: #999;
+    margin: .2rem .2rem;
+}

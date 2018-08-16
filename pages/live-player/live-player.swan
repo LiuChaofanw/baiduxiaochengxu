@@ -1,0 +1,11 @@
+<live-player src="{{src}}" autoplay="{{autoplay}}" object-fit="{{objectFit}}" background-mute="{{backgroundMute}}" muted="{{muted}}" min-cache="{{minCache}}" max-cache="{{maxCache}}" bind:statechange="statechange" bind:netstatus="netstatus" id="myLive"></live-player>
+<div class="wrap">
+    <view class="sub-item" bind:tap="livePlay">开始播放 play</view>
+    <view class="sub-item" bind:tap="liveStop">停止播放 stop</view>
+    <view class="sub-item" bind:tap="liveMute">静音</view>
+    <view class="sub-item" bind:tap="changeSrc">更换src</view>
+    <view class="sub-item" bind:tap="backgroundMute">后台静音</view>
+    <view class="sub-item" bind:tap="objectFit">object-fit改变</view>
+    <view class="sub-item" bind:tap="oneItemClick1">点击跳转有直播</view>
+    <view class="sub-item" bind:tap="oneItemClick2">点击跳转无直播</view>
+</div>

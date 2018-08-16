@@ -1,0 +1,16 @@
+<view s-for="item in items" class="single-item" bind:tap="oneItemClick" bind:touchstart="oneItemTouchStart" bind:touchmove="oneItemTouchmove" bind:touchcancel="oneItemTouchcancel" bind:touchend="oneItemTouchEnd">
+    <image src="{{item.imgsrc}}" class="single-img"></image>
+    <view class="single-text-area">
+        <text class="single-title" selectable>
+            {{item.title}}
+        </text>
+        <view s-if="{{item.tags}}" class="tag-area">
+            <text s-for="tag in item.tags" class="{{tag.className}}">
+                {{tag.content}}
+            </text>
+        </view>
+    </view>
+</view>
+<button bind:tap="loadMore">
+    点击加载更多
+</button>

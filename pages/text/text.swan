@@ -1,0 +1,16 @@
+<view class="wrap">
+	<view class="group">
+		<view s-for="text in texts" class="text-box wrap-{{text}}">
+			<view class="text-px text-{{text}}">{{text}}</view>
+			<view class="text-content">
+				<view class="content content-{{text}}">
+					{{showContent}}
+				</view>
+			</view>
+		</view>
+    </view>
+    <view>
+		<button class="btn" type="primary" bind:tap="addLine">add line</button>
+		<button class="btn" type="primary" bind:tap="removeLine">remove line</button>
+	</view>
+</view>

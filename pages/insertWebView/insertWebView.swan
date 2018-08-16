@@ -1,0 +1,4 @@
+
+<view class="ctn">
+	<button s-for="item in items" id="{{item.id}}" class="btn" bind:tap="btnClick" type="primary" hover-stop-propagation="true">{{item.name}}</button>
+</view>

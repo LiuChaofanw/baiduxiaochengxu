@@ -1,0 +1,30 @@
+/**
+ * @demo page component for video
+ * @author lvlei(lvlei03@baidu.com)
+ */
+
+.wrap {
+    font-size: .16rem;
+}
+.btn {
+    width: auto;	    
+    margin-top: .3rem;
+}
+.text-wrap {
+    display: flex;
+    margin-top: .4rem;
+    border-top: 1px #ddd solid;
+    border-bottom: 1px #ddd solid;
+}
+.danmu-title {
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    flex: 0 0 1rem;
+    background: #fff;
+}
+.ipt {
+    height: .4rem;
+    line-height: .4rem;
+    flex: 1;
+}

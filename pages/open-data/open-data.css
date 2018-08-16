@@ -1,0 +1,10 @@
+.avatar-url {
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.nick-name {
+    margin: .1rem auto;
+}
+.gender {
+    margin: .1rem auto;
+}
